@@ -1,9 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T02:12:35.300Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.0" etag="mkgrTRXz1-EOmhFk6DeV" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-13T02:23:33.094Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="llwUqmsF46KDa5Zl5MS1" version="24.4.0" type="github">
   <diagram name="第 1 页" id="UpN9TxlOagDs6BUTeJFO">
-    <mxGraphModel>
+    <mxGraphModel dx="1235" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="254" y="320" as="targetPoint" />
+            <mxPoint x="83.32352941176464" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;goto&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="z3Vlvi8mKDNlq0qlq9Zg-1">
+          <mxGeometry x="0.0144" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;User&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="34" y="169" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="z3Vlvi8mKDNlq0qlq9Zg-3">
+          <mxGeometry x="45" y="71" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="434" y="320" as="targetPoint" />
+            <mxPoint x="263.32352941176464" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-6" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="z3Vlvi8mKDNlq0qlq9Zg-5">
+          <mxGeometry x="-0.4522" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;booking(hospital,&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;doctor,time)&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="z3Vlvi8mKDNlq0qlq9Zg-5">
+          <mxGeometry x="-0.0967" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;《boundary》&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;BookingUI&lt;/font&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="214" y="169" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-9" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="69" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="614" y="271" as="targetPoint" />
+            <mxPoint x="443.32352941176464" y="271" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-11" value="verifyHospitalValidity(&lt;div&gt;hospital,time)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="z3Vlvi8mKDNlq0qlq9Zg-10">
+          <mxGeometry x="-0.13" y="1" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;《controller》&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;BookingManager&lt;/font&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="394" y="169" width="100" height="391" as="geometry" />
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="z3Vlvi8mKDNlq0qlq9Zg-12">
+          <mxGeometry x="45" y="71" width="10" height="259" as="geometry" />
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;《entity》&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;HospitalLibrary&lt;/font&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="574" y="35" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="z3Vlvi8mKDNlq0qlq9Zg-14">
+          <mxGeometry x="45" y="70" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-16" value="HospitalInvalid" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="614" y="311" as="sourcePoint" />
+            <mxPoint x="454" y="311" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-17" value="BookingResult(FAILED)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" target="z3Vlvi8mKDNlq0qlq9Zg-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="434" y="380" as="sourcePoint" />
+            <mxPoint x="263.5" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="259" y="240" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-20" value="ShowIncorrectBookingInfo" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="269" y="400" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="299" y="430" />
+            </Array>
+            <mxPoint x="274" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;《entity》&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;DoctorLibrary&lt;/font&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="574" y="339" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-22" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="z3Vlvi8mKDNlq0qlq9Zg-21">
+          <mxGeometry x="45" y="70" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620.68" y="420" as="targetPoint" />
+            <mxPoint x="450.00352941176465" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-26" value="verifyDoctorValidity&lt;div&gt;(doctor,time)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" connectable="0" parent="z3Vlvi8mKDNlq0qlq9Zg-25">
+          <mxGeometry x="-0.13" y="1" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3Vlvi8mKDNlq0qlq9Zg-27" value="DoctorInvalid" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="468.16999999999996" as="sourcePoint" />
+            <mxPoint x="450" y="468.16999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
